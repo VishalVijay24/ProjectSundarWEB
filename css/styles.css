@@ -76,11 +76,11 @@ body, p {
 }
 
 .reded {
-	color: #d34c4c;
+	color: #ff8c8c;
 }
 
 .rededed {
-	color: #d34c4c;
+	color: #ff9b9b;
 }
 
 .redededed {
@@ -156,7 +156,7 @@ form {
 	margin: 8px 0;
 	display: inline-block;
 	border-radius: 10px;
-	border: 1px solid rgba(204, 204, 204, 0);
+	border: 1px solid rgb(172, 62, 62);
 	box-sizing: border-box;
   }
   
@@ -252,8 +252,16 @@ form {
 	background: linear-gradient(90deg, rgba(73,22,21,1) 0%, rgba(0,0,0,1) 35%);
 }
 
+.blackbg {
+	background: linear-gradient(90deg, rgba(73,22,21,1) 0%, rgba(0,0,0,1) 35%);
+}
+
 .blackbg1 {
 	background: linear-gradient(90deg, rgba(73,22,21,1) 0%, rgba(0,0,0,1) 35%);
+}
+
+.blackbg3 {
+	background-image: url('images/giphy.gif')
 }
 
 .blackbg2 {
@@ -478,7 +486,7 @@ select::-ms-expand {
 	height: 8rem; /* used instead of html rows to normalize height between Chrome and IE/FF */
 	padding-top: 1.25rem;
 	padding-left: 1.3125rem;
-	border: 1px solid #c4d8dc;
+	border: 1px solid rgb(172, 62, 62);
 	border-radius: 0.25rem;
 	background-color: #fff;
 	color: #626262;
@@ -751,9 +759,13 @@ input[type='checkbox'] {
 	width: 1rem;
 	height: 1rem;
 	border-radius: 100%;
-	background-color: #00bfd8;
+	background-color: #7a3030;
 	-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
 	animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.gif1 {
+	background: 
 }
 
 .spinner .bounce1 {
@@ -973,7 +985,7 @@ input[type='checkbox'] {
 	margin-bottom: 4.5rem;
 	margin-left: auto;
 	padding: 3.25rem 2rem 2rem 2rem;
-	border: 1px solid #c4d8dc;
+	border: 1px solid rgb(172, 62, 62);
 	border-radius: 0.5rem;
 	background: #ffffff;
 }
@@ -1500,7 +1512,7 @@ input[type='checkbox'] {
 	padding-top: 4rem;
 	padding-bottom: 4rem;
 	text-align: center;
-	background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%);
+	background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%);
 	column-count: 2;
 	column-gap: 20px;
 	column-rule-style: solid;
@@ -2228,7 +2240,7 @@ a:hover.back-to-top {
 	}
 
 	hr.dotted {
-		border-top: 3px dotted rgb(252, 252, 252);
+		border-top: 3px dotted rgb(0, 0, 0);
 	}
 
 	.navbar-custom .dropdown-items-divide-hr {
