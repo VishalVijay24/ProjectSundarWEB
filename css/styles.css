@@ -76,7 +76,7 @@ body, p {
 }
 
 .reded {
-	color: #ff8c8c;
+	color: #bd3f3f;
 }
 
 .rededed {
@@ -261,8 +261,9 @@ form {
 }
 
 .blackbg3 {
-	background-image: url('images/giphy.gif')
+	opacity: 0.4;
 }
+
 
 .blackbg2 {
 	background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%);
@@ -831,7 +832,7 @@ input[type='checkbox'] {
 
 .navbar-custom .nav-item .nav-link:hover,
 .navbar-custom .nav-item .nav-link.active {
-	color: #00bfd8;
+	color: #642b2b;
 }
 
 /* Dropdown Menu */
@@ -2219,7 +2220,7 @@ a:hover.back-to-top {
 	
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
-		color: #00bfd8;
+		color: #7c3d3d;
 	}
 
 	.navbar-custom .dropdown-menu {
